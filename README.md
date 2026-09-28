@@ -22,8 +22,8 @@
 
 ## 发布到 GitHub Pages
 
-目标仓库是 `czx-beauty/czx-beauty.github.io`，网站源码已提交到私有仓库的 `main` 分支。尝试为该仓库启用 Pages 时，GitHub API 返回“Your current plan does not support GitHub Pages for this repository”，因此网站尚未公开发布。要使用 `https://czx-beauty.github.io/`，可以由仓库所有者决定将仓库改为公开，再在 Settings → Pages → Build and deployment 中选择 Deploy from a branch、`main`、`/(root)`；也可以保留私有仓库并使用支持私有 Pages 的套餐。根目录的 `index.html` 是经典履历，`gallery.html` 仍可查看其他模板。
+目标仓库是公开的 `czx-beauty/czx-beauty.github.io`。GitHub Pages 已设置为从 `main` 分支的 `/(root)` 目录发布，网站地址为 `https://czx-beauty.github.io/`。根目录的 `index.html` 是经典履历，`gallery.html` 仍可查看其他模板。
 
-正式主页展示姓名、学校、照片、学校邮箱、个人邮箱和 GitHub 账号，不展示简历中的手机号。改为公开仓库后，仓库内的页面源码、照片和其他两套示例模板也会公开。
+正式主页展示姓名、学校、照片、学校邮箱、个人邮箱和 GitHub 账号，不展示简历中的手机号。仓库内的页面源码、照片和其他两套示例模板也公开可见。
 
 GitHub 官方文档：[GitHub Pages 概览](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages)、[配置发布源](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)、[快速入门](https://docs.github.com/en/pages/quickstart)。
