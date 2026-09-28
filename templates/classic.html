@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="常支鑫的个人主页：深圳大学电子科学与技术本科生，关注机器学习、模型轻量化与 AI 工程实践。">
+  <title>常支鑫 · 个人简历</title>
+  <link rel="stylesheet" href="../assets/common.css">
+  <link rel="stylesheet" href="../assets/classic.css">
+</head>
+<body>
+  <div class="demo-bar no-print"><a href="../index.html">← 查看其他模板</a><span class="demo-note">常支鑫 / 个人简历</span><div class="demo-bar-actions"><button type="button" onclick="window.print()">打印 / 保存 PDF</button></div></div>
+  <header class="site-header">
+    <a class="wordmark" href="#top">CZX<span>.</span></a>
+    <nav aria-label="页面导航"><a href="#about">关于</a><a href="#experience">经历</a><a href="#projects">项目</a><a href="#skills">技能</a><a href="#contact">联系</a></nav>
+    <a class="header-email" href="mailto:2024090102@mails.szu.edu.cn">联系我 <span aria-hidden="true">↗</span></a>
+  </header>
+  <main id="top">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="kicker"><span class="status-dot"></span> 寻找科研训练与研究机会 <span class="dash">/</span> 深圳大学</div>
+        <h1 id="hero-title">你好，我是<br><em>常支鑫。</em></h1>
+        <p class="role">电子科学与技术本科生</p>
+        <p class="hero-desc">关注机器学习、深度学习与 AI 工程实践，尤其希望深入学习模型量化、轻量化与数据压缩。期待加入研究团队，在真实课题中接受系统科研训练。</p>
+        <div class="hero-links"><a class="primary-link" href="#projects">查看我的项目 <span>↘</span></a><a class="secondary-link" href="#contact">与我联系 <span>↗</span></a></div>
+      </div>
+      <div class="hero-art">
+        <div class="portrait-frame"><img class="profile-photo" src="../assets/profile.jpg" alt="常支鑫的个人照片" width="551" height="803"></div>
+        <div class="art-caption"><span>SHENZHEN, CHINA</span><span>保持好奇，持续实践。</span></div>
+        <span class="art-cross cross-a" aria-hidden="true">+</span><span class="art-cross cross-b" aria-hidden="true">+</span>
+      </div>
+    </section>
+    <section class="summary-strip" aria-label="个人概况">
+      <div class="wrap summary-inner"><div><strong>2024</strong><small>入学年份</small></div><div><strong>02</strong><small>个个人实践项目</small></div><div><strong>300<span>+</span></strong><small>校园活动参与人次</small></div><p>在探索中学习，<br>在实践中成长。</p></div>
+    </section>
+    <section class="content-section wrap about-section" id="about">
+      <div class="section-label"><span>01</span><p>关于我<br>ABOUT</p></div>
+      <div class="section-body"><h2>从问题出发，<br><em>走向实践。</em></h2><div class="about-columns"><p>我是深圳大学集成电路学院电子科学与技术专业的本科生。专业学习涵盖编程、信号与系统、电路分析及数学基础，也在持续自学机器学习与深度学习。</p><p>我对大模型量化、轻量化和数据压缩保持兴趣，希望在扎实的工程实践之外，接受更系统的科研训练，并逐步深入真实的研究问题。</p></div></div>
+    </section>
+    <section class="content-section wrap" id="experience">
+      <div class="section-label"><span>02</span><p>学习与经历<br>EXPERIENCE</p></div>
+      <div class="section-body"><h2>在校园里，<br><em>持续积累。</em></h2><div class="timeline">
+        <article class="timeline-item"><div class="time">2024.09 — 至今</div><div><h3>深圳大学 · 本科</h3><p class="company">集成电路学院 / 电子科学与技术 / 2028 届</p><p>已修读 Java、Python、C 程序设计，以及计算机网络、离散数学、电路分析、信号与系统、概率论与数理统计等课程。</p></div><span class="item-arrow" aria-hidden="true">↗</span></article>
+        <article class="timeline-item"><div class="time">校园工作</div><div><h3>学习委员与学生组织成员</h3><p class="company">班级学习委员 / 院学委会成员 / 院主持礼仪部干事</p><p>参与班级学习事务和学院学生工作，在团队沟通、活动支持与事务协调中积累经验。</p></div><span class="item-arrow" aria-hidden="true">↗</span></article>
+        <article class="timeline-item"><div class="time">活动组织</div><div><h3>深圳大学跑团团长</h3><p class="company">校园活动统筹</p><p>曾统筹策划参与人次超过 300 的全校性活动，负责组织沟通与现场执行。</p></div><span class="item-arrow" aria-hidden="true">↗</span></article>
+      </div></div>
+    </section>
+    <section class="content-section wrap" id="projects">
+      <div class="section-label"><span>03</span><p>个人实践<br>PROJECTS</p></div>
+      <div class="section-body"><h2>把学到的知识，<br><em>做成可以运行的系统。</em></h2><div class="project-list">
+        <article class="project"><div class="project-number">01 / AI 检索问答</div><div><h3>基于 FastAPI 的 AI 检索问答小系统</h3><p>使用 FastAPI 编写 RESTful 接口和 SSE 流式返回，在本地部署 4-bit 量化的 Qwen3.5-9B 作为问答后端。结合本地微调的 BERT 特征提取与 ChromaDB 向量检索，对历史记录进行基础过滤，并通过 Docker 在本地运行服务。</p><div class="tags"><span>Python</span><span>FastAPI</span><span>Qwen3.5-9B</span><span>BERT</span><span>ChromaDB</span></div></div><div class="project-mark" aria-hidden="true">AI<span>↗</span></div></article>
+        <article class="project"><div class="project-number">02 / 图像分析</div><div><h3>基于 Spring Boot 的图像分析平台</h3><p>使用 Spring Boot 与 MySQL 搭建管理后端，引入 Redis 缓存热点数据。在云端 GPU 实例上配置 Linux 与 PyTorch 环境，编写 DataLoader，跑通轻量卷积模型训练流程。</p><div class="tags"><span>Java</span><span>Spring Boot</span><span>MySQL</span><span>Redis</span><span>PyTorch</span></div></div><div class="project-mark second" aria-hidden="true">CV<span>↗</span></div></article>
+      </div></div>
+    </section>
+    <section class="content-section wrap skill-section" id="skills">
+      <div class="section-label"><span>04</span><p>技能与方向<br>SKILLS</p></div>
+      <div class="section-body"><h2>技术是工具，<br><em>好奇心是起点。</em></h2><div class="skill-columns"><div><h3>编程与工程</h3><div class="skill-tags"><span>Python</span><span>NumPy / Pandas</span><span>Java</span><span>C</span><span>FastAPI</span><span>Spring Boot</span><span>MySQL</span><span>Git</span><span>Linux</span><span>Docker 基础</span></div></div><div><h3>研究兴趣与学习</h3><p class="education-title">机器学习 · 深度学习 · 模型轻量化</p><p class="education-note">了解 CNN、Transformer 等常见网络结构；持续阅读英文技术文档与论文，关注模型量化和数据压缩方向。</p><p class="education-time">英语：已通过 CET-4</p></div></div></div>
+    </section>
+  </main>
+  <footer id="contact"><div class="wrap footer-inner"><div><span class="footer-kicker">05 / LET'S TALK</span><h2>期待交流，<br><em>共同探索。</em></h2><a class="footer-mail" href="mailto:2024090102@mails.szu.edu.cn">2024090102@mails.szu.edu.cn ↗</a></div><div class="footer-side"><p>如果你在机器学习、AI 工程实践或科研训练方面有交流与合作机会，欢迎通过邮箱联系我。</p><div class="footer-links"><a href="mailto:MirkoVilla501@gmail.com">个人邮箱：MirkoVilla501@gmail.com ↗</a><a href="https://github.com/czx-beauty" target="_blank" rel="noopener noreferrer">GitHub：czx-beauty ↗</a></div><span>© 2026 常支鑫 · 深圳大学</span></div></div></footer>
+</body>
+</html>
